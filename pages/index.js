@@ -12,7 +12,7 @@ const HomePage = () => (
       <ListBlock
         heading={"Our Work"}
         listItems={[
-          "TerminateVirus is a new reliable ambitious company that is ready to make your life easier. We have trained, fully vaccinated, and reliable cleaners.",
+          "Tervi is a new reliable ambitious company that is ready to make your life easier. We have trained, fully vaccinated, and reliable cleaners.",
           "Deliverables and Milestones Inspections and Reports.",
           "Cleaner coverage 100% insured. Always have backup cleaners.",
           "We conduct background checks on every employee hired.",
@@ -23,7 +23,7 @@ const HomePage = () => (
       <ListBlock
         heading={"Work compliance"}
         listItems={[
-          "TerminateVirus delivers a great reliable cleaning performance. ",
+          "Tervi delivers a great reliable cleaning performance. ",
           "All of our cleaners have gone through training, background checks, and have been personally interview to ensure we bring the highest standards of cleaning.",
           "Small Business that focuses on Compliance Corporate Social Responsibility",
           "Low Fees compared to other companies",
