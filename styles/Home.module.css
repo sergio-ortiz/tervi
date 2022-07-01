@@ -13,4 +13,8 @@
   .container {
     width: 90%;
   }
+
+  .mainHeading {
+    margin-top: 1.5rem;
+  }
 }

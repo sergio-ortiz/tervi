@@ -1,0 +1,19 @@
+.block {
+  margin: 5rem 0;
+}
+
+.heading {
+  font-size: 28px;
+  text-decoration: underline;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.list {
+  padding-left: 1rem;
+  margin-top: 2rem;
+}
+
+.item {
+  font-size: 18px;
+}
