@@ -1,0 +1,20 @@
+.container {
+  width: 55%;
+  margin: 0 auto;
+}
+
+.mainHeading {
+  margin-top: 4rem;
+  text-align: center;
+  font-size: 2.25rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  .mainHeading {
+    margin-top: 1.5rem;
+  }
+}
