@@ -12,6 +12,7 @@ const Footer = () => (
         method="POST"
         data-netlify="true"
       >
+        <input type="hidden" name="form-name" value="contact" />
         <input id="name" type="text" name="name" placeholder="name" required />
         <input
           id="number"
