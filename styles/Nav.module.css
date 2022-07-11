@@ -46,8 +46,31 @@
   border-bottom: 1px solid white;
 }
 
+.hamburger {
+  background: none;
+  padding: 0;
+  border: none;
+  display: none;
+}
+
+.bar {
+  background: white;
+  height: 3px;
+  width: 24px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+}
+
 @media (max-width: 768px) {
   .container {
-    width: 100%;
+    width: 97%;
+  }
+
+  .navLinks {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
   }
 }
