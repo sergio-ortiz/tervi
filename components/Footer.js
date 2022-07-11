@@ -1,7 +1,7 @@
 import styles from "../styles/Footer.module.css";
 
 const Footer = () => (
-  <footer className={styles.contact}>
+  <footer id="contact" className={styles.contact}>
     <div className={styles.container}>
       <h2>Contact Us</h2>
 
