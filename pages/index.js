@@ -3,7 +3,7 @@ import ListBlock from "../components/ListBlock";
 import styles from "../styles/Home.module.css";
 import bankStaff from "../assets/bank_staff.jpg";
 import elevatorBuilding from "../assets/elevator_building.jpg";
-import entireTeam from "../assets/entire_team.jpg";
+import terviTeam from "../assets/tervi_team.jpg";
 import floorCare from "../assets/floor_care.jpg";
 import officeMop from "../assets/office_mop.jpg";
 import powerWash from "../assets/power_wash.jpg";
@@ -43,7 +43,7 @@ const HomePage = () => (
       />
       <ListBlock
         order={2}
-        imageSrc={entireTeam}
+        imageSrc={terviTeam}
         heading={"Why We Are better"}
         listItems={[
           "As a Small local business, we help the community",

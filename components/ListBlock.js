@@ -3,7 +3,7 @@ import styles from "../styles/ListBlock.module.css";
 const ListBlock = ({ order, imageSrc, heading, listItems }) => (
   <section className={`${styles.block} ${styles[order]}`}>
     <div className={styles.pic}>
-      <Image src={imageSrc} />
+      <Image src={imageSrc} placeholder="blur" />
     </div>
     <div className={styles.div}>
       <h2 className={styles.heading}>{heading}</h2>
