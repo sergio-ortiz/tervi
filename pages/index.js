@@ -1,6 +1,12 @@
 import Layout from "../components/Layout";
 import ListBlock from "../components/ListBlock";
 import styles from "../styles/Home.module.css";
+import bankStaff from "../assets/bank_staff.jpg";
+import elevatorBuilding from "../assets/elevator_building.jpg";
+import terviTeam from "../assets/tervi_team.jpg";
+import floorCare from "../assets/floor_care.jpg";
+import officeMop from "../assets/office_mop.jpg";
+import powerWash from "../assets/power_wash.jpg";
 
 const HomePage = () => (
   <Layout>
@@ -10,6 +16,8 @@ const HomePage = () => (
         provider.
       </h1>
       <ListBlock
+        order={2}
+        imageSrc={bankStaff}
         heading={"Our Work"}
         listItems={[
           "Tervi is a new reliable ambitious company that is ready to make your life easier. We have trained, fully vaccinated, and reliable cleaners.",
@@ -21,6 +29,8 @@ const HomePage = () => (
         ]}
       />
       <ListBlock
+        order={1}
+        imageSrc={elevatorBuilding}
         heading={"Work compliance"}
         listItems={[
           "Tervi delivers a great reliable cleaning performance. ",
@@ -32,6 +42,8 @@ const HomePage = () => (
         ]}
       />
       <ListBlock
+        order={2}
+        imageSrc={terviTeam}
         heading={"Why We Are better"}
         listItems={[
           "As a Small local business, we help the community",
@@ -43,12 +55,16 @@ const HomePage = () => (
         ]}
       />
       <ListBlock
+        order={1}
+        imageSrc={floorCare}
         heading={"Where We Work"}
         listItems={[
           "Auto Dealerships, Apt/Office Buildings, Medical Facilities, Retail Stores, Education Facilities, Hospitals, Manufacturing Facilities, Factories, Restaurants, Fitness Centers, Social Ventures, Theaters, Clinics, Parks (maybe recreational), Theaters, Museums, Churches, Hotels, …etc.",
         ]}
       />
       <ListBlock
+        order={2}
+        imageSrc={officeMop}
         heading={"Customer Benefits"}
         listItems={[
           "We conduct inspections to check in with the janitors to make sure everything is up to your expectations.",
@@ -58,6 +74,8 @@ const HomePage = () => (
         ]}
       />
       <ListBlock
+        order={1}
+        imageSrc={powerWash}
         heading={"Commercial Janitorial Cleaning"}
         listItems={[
           "All of our cleaners have gone through training, background checks, and have been personally interview to ensure we bring the highest standards of cleaning.",

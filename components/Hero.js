@@ -1,14 +1,14 @@
 import Image from "next/image";
-import homeHero from "../assets/home_hero.jpg";
+import brilliantOffice from "../assets/sharp_brilliant_office.jpg";
 import styles from "../styles/Hero.module.css";
 
 const Hero = () => (
   <div className={styles.hero}>
     <Image
-      src={homeHero}
+      src={brilliantOffice}
       layout="fill"
       objectFit="cover"
-      objectPosition="50% 60%"
+      objectPosition="50% 65%"
       placeholder="blur"
       priority
     />
