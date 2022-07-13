@@ -1,10 +1,12 @@
 import Nav from "../components/Nav";
 import Hero from "../components/Hero";
+import styles from "../styles/Header.module.css";
 
-const Header = () => (
+const Header = ({ hero, mainHeading }) => (
   <>
     <Nav />
-    <Hero />
+    <Hero imageSrc={hero} />
+    <h1 className={styles.mainHeading}>{mainHeading}</h1>
   </>
 );
 

@@ -1,11 +1,10 @@
 import Image from "next/image";
-import brilliantOffice from "../assets/sharp_brilliant_office.jpg";
 import styles from "../styles/Hero.module.css";
 
-const Hero = () => (
+const Hero = ({ imageSrc }) => (
   <div className={styles.hero}>
     <Image
-      src={brilliantOffice}
+      src={imageSrc}
       layout="fill"
       objectFit="cover"
       objectPosition="50% 65%"
