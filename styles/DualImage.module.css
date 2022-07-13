@@ -1,0 +1,12 @@
+.dualImage {
+  width: 55%;
+  margin: 2rem auto 0;
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .dualImage {
+    width: 90%;
+    flex-direction: column;
+  }
+}

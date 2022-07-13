@@ -1,5 +1,5 @@
-import Image from "next/image";
 import Layout from "../components/Layout";
+import DualImage from "../components/DualImage.js";
 import styles from "../styles/Home.module.css";
 import corona from "../assets/corona.jpg";
 
@@ -107,6 +107,7 @@ const SanitationPage = () => (
           </a>
         </p>
       </div>
+      <DualImage />
     </main>
   </Layout>
 );
