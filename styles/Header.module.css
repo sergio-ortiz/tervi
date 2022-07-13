@@ -10,5 +10,6 @@
 @media (max-width: 768px) {
   .mainHeading {
     margin-top: 1.5rem;
+    width: 90%;
   }
 }
