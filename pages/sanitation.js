@@ -6,6 +6,7 @@ import Carousel from "../components/Carousel";
 import fs from "fs";
 import path from "path";
 import Image from "next/image";
+import Prices from "../components/Prices";
 
 export async function getStaticProps() {
   const images = fs.readdirSync(path.join("public", "carousel"));
@@ -130,6 +131,7 @@ const SanitationPage = ({ images }) => (
         </p>
       </div>
       <DualImage />
+      <Prices />
     </main>
   </Layout>
 );
