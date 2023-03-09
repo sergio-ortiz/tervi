@@ -2,8 +2,16 @@ import Layout from "../components/Layout";
 import DualImage from "../components/DualImage.js";
 import styles from "../styles/Home.module.css";
 import corona from "../assets/corona.jpg";
+import Carousel from "../components/Carousel";
+import fs from "fs";
+import path from "path";
 
-const SanitationPage = () => (
+export async function getStaticProps() {
+  const images = fs.readdirSync(path.join("public"));
+  return { props: { images } };
+}
+
+const SanitationPage = ({ images }) => (
   <Layout
     hero={corona}
     mainHeading={"Welcome to TerminateVirus.\nDisinfect & Sanitize"}
@@ -37,6 +45,7 @@ const SanitationPage = () => (
           sanitizing all high touch and open areas to reduce the risk of
           exposure and stop the spread of Coronavirus.
         </p>
+        <Carousel images={images} />
         <p className={styles.paragraph}>
           Open your company’s doors by showing employees and customers that your
           business is utilizing a professional disinfecting service provider to
