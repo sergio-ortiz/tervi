@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { useState, useEffect } from "react";
-import styles from "../styles/Carousel.module.css";
 
 export default function Carousel({ images }) {
   const [index, setIndex] = useState(0);
@@ -14,9 +13,6 @@ export default function Carousel({ images }) {
       clearInterval(interval);
     };
   });
-  return (
-    <div className={styles.container}>
-      <Image src={"/" + images[index]} layout="fill" />
-    </div>
-  );
+
+  return <Image src={"/carousel/" + images[index]} layout="fill" />;
 }

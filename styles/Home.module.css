@@ -20,8 +20,23 @@
   margin: 1rem 0;
 }
 
+.video {
+  margin: 2rem auto;
+  display: block;
+  width: 100%;
+}
+
+.imgDiv {
+  position: relative;
+  height: 500px;
+  margin: 2rem auto;
+}
+
 @media (max-width: 768px) {
   .container {
     width: 90%;
+  }
+  .imgDiv {
+    height: 200px;
   }
 }

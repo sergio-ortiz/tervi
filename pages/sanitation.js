@@ -5,9 +5,10 @@ import corona from "../assets/corona.jpg";
 import Carousel from "../components/Carousel";
 import fs from "fs";
 import path from "path";
+import Image from "next/image";
 
 export async function getStaticProps() {
-  const images = fs.readdirSync(path.join("public"));
+  const images = fs.readdirSync(path.join("public", "carousel"));
   return { props: { images } };
 }
 
@@ -31,7 +32,7 @@ const SanitationPage = ({ images }) => (
             Prevention Experts Bloodborne for Bloodborne Pathogens and other
             Infectious Diseases Cleaning, Decontamination, Disinfection and
             Sanitation certification OSHA.
-            <a href="./assets/certification.pdf" target="_blank">
+            <a href="/certification.pdf" target="_blank">
               View Certification
             </a>
           </strong>
@@ -45,7 +46,9 @@ const SanitationPage = ({ images }) => (
           sanitizing all high touch and open areas to reduce the risk of
           exposure and stop the spread of Coronavirus.
         </p>
-        <Carousel images={images} />
+        <div className={styles.imgDiv}>
+          <Carousel images={images} />
+        </div>
         <p className={styles.paragraph}>
           Open your company’s doors by showing employees and customers that your
           business is utilizing a professional disinfecting service provider to
@@ -62,12 +65,22 @@ const SanitationPage = ({ images }) => (
           We use disinfectants approved by the CDC and the EPA to eliminate
           SARS-CoV-2.
         </p>
+        <video
+          className={styles.video}
+          src="/terminateVirus.mp4"
+          autoPlay
+          muted
+          loop
+        ></video>
         <p className={styles.paragraph}>
           TerminateVirus now added the Premium Portable UV Surface and Air
           Sanitizer System This is a strong antimicrobial ultraviolet
           disinfection system that will treat all exposed areas and will
           eliminate Bacteria, Viruses, Corona Virus, Mold Spores.
         </p>
+        <div className={styles.imgDiv}>
+          <Image src="/uv.jpg" layout="fill" />
+        </div>
         <p className={styles.paragraph}>
           It is recommended by the CDC disinfect frequently touched surfaces
           daily. This includes tables, doorknobs, light switches, countertops,
