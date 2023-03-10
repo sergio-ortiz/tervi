@@ -1,7 +1,7 @@
 import Link from "next/link";
 import styles from "/styles/MobileMenu.module.css";
 
-const MobileMenu = ({ mobile, toggleMenu }) => (
+const MobileMenu = ({ mobile, toggleMenu, extras }) => (
   <ul
     className={mobile ? `${styles.navLinks} ${styles.show}` : styles.navLinks}
   >
@@ -19,6 +19,15 @@ const MobileMenu = ({ mobile, toggleMenu }) => (
         </a>
       </Link>
     </li>
+    {extras.map((e) => (
+      <li className={styles.navLinkItem}>
+        <Link href={"#" + e}>
+          <a className={styles.navLinkText}>
+            {`${e[0].toUpperCase()}${e.slice(1)}`}
+          </a>
+        </Link>
+      </li>
+    ))}
     <li className={styles.navLinkItem}>
       <Link href="/sanitation">
         <a className={styles.navLinkText}>Sanitation</a>

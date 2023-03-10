@@ -15,6 +15,7 @@ const HomePage = () => (
     mainHeading={
       "Tervi strives to be your 5-star rating Professional Janitorial service provider."
     }
+    extras={[]}
   >
     <div id="about" className={styles.container}>
       <ListBlock

@@ -17,6 +17,7 @@ const SanitationPage = ({ images }) => (
   <Layout
     hero={corona}
     mainHeading={"Welcome to TerminateVirus.\nDisinfect & Sanitize"}
+    extras={["prices"]}
   >
     <h1 className={styles.mainHeading}>
       <br />
