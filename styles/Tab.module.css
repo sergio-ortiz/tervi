@@ -1,0 +1,13 @@
+.tab {
+  margin-top: 1rem;
+  background: #f4f4f4;
+  border: 1px solid #f4f4f4;
+  border-bottom: none;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  padding: 1rem;
+}
+
+.active {
+  background: #fff;
+}

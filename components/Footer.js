@@ -1,4 +1,6 @@
 import styles from "../styles/Footer.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => (
   <footer id="contact" className={styles.contact}>
@@ -38,7 +40,7 @@ const Footer = () => (
         className={styles.whatsappButton}
         href="https://api.whatsapp.com/send?phone=12407315552&text=&source=&data=&app_absent="
       >
-        whatsapp <i className="fab fa-whatsapp"></i>
+        whatsapp <FontAwesomeIcon icon={faWhatsapp} />
       </a>
     </div>
     <div className={styles.copyright}>

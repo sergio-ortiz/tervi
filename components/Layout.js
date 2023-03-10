@@ -2,7 +2,7 @@ import Head from "next/head";
 import Header from "/components/Header";
 import Footer from "/components/Footer";
 
-const Layout = ({ children }) => (
+const Layout = ({ children, hero, mainHeading, extras }) => (
   <>
     <Head>
       <meta
@@ -11,7 +11,7 @@ const Layout = ({ children }) => (
       />
       <title>Tervi | Janitorial Cleaning Services</title>
     </Head>
-    <Header />
+    <Header hero={hero} mainHeading={mainHeading} extras={extras} />
     {children}
     <Footer />
   </>

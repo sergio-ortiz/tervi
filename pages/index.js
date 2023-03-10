@@ -1,6 +1,7 @@
 import Layout from "../components/Layout";
 import ListBlock from "../components/ListBlock";
 import styles from "../styles/Home.module.css";
+import brilliantOffice from "../assets/sharp_brilliant_office.jpg";
 import bankStaff from "../assets/bank_staff.jpg";
 import elevatorBuilding from "../assets/elevator_building.jpg";
 import terviTeam from "../assets/tervi_team.jpg";
@@ -9,12 +10,14 @@ import officeMop from "../assets/office_mop.jpg";
 import powerWash from "../assets/power_wash.jpg";
 
 const HomePage = () => (
-  <Layout>
+  <Layout
+    hero={brilliantOffice}
+    mainHeading={
+      "Tervi strives to be your 5-star rating Professional Janitorial service provider."
+    }
+    extras={[]}
+  >
     <div id="about" className={styles.container}>
-      <h1 className={styles.mainHeading}>
-        Tervi strives to be your 5-star rating Professional Janitorial service
-        provider.
-      </h1>
       <ListBlock
         order={2}
         imageSrc={bankStaff}
