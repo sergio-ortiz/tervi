@@ -2,6 +2,7 @@ import { useState } from "react";
 import Link from "next/link";
 import MobileMenu from "/components/MobileMenu";
 import styles from "/styles/Nav.module.css";
+import Image from "next/image";
 
 const Nav = ({ extras }) => {
   const [mobile, setMobile] = useState(false);
@@ -11,7 +12,15 @@ const Nav = ({ extras }) => {
       <div className={styles.container}>
         <h1>
           <Link href="/">
-            <a className={styles.branding}>Tervi</a>
+            <a className={styles.branding}>
+              <Image
+                className={styles.logo}
+                src="/logo1.png"
+                width="25"
+                height="25"
+              />
+              Tervi
+            </a>
           </Link>
         </h1>
         <ul className={styles.navLinks}>

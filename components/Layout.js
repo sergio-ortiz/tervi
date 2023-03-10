@@ -9,6 +9,7 @@ const Layout = ({ children, hero, mainHeading, extras }) => (
         name="keywords"
         content="facility, custodian, porter, clean, cleaner, cleaning, janitorial, janitor, COVID-19, SARS-CoV-2, coronavirus, disinfect, disinfecting, sanitize, sanitizing, decontamination, decontaminate"
       />
+      <link rel="icon" href="/logo1.ico" />
       <title>Tervi | Janitorial Cleaning Services</title>
     </Head>
     <Header hero={hero} mainHeading={mainHeading} extras={extras} />
