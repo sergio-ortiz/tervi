@@ -28,7 +28,7 @@ const Nav = () => {
             </Link>
           </li>
           <li className={styles.navLinkItem}>
-            <Link href="https://www.terminatevirus.com/">
+            <Link href="/sanitation">
               <a className={styles.navLinkText}>Sanitation</a>
             </Link>
           </li>
