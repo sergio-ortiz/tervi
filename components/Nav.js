@@ -15,7 +15,7 @@ const Nav = ({ extras }) => {
             <a className={styles.branding}>
               <Image
                 className={styles.logo}
-                src="/logo1.png"
+                src="/logo2.png"
                 width="25"
                 height="25"
               />
