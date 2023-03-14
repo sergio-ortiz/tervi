@@ -1,7 +1,7 @@
 import Layout from "../components/Layout";
 import DualImage from "../components/DualImage.js";
 import styles from "../styles/Home.module.css";
-import corona from "../assets/corona.jpg";
+import corona from "/public/corona.jpg";
 import Carousel from "../components/Carousel";
 import fs from "fs";
 import path from "path";
@@ -71,6 +71,7 @@ const SanitationPage = ({ images }) => (
           className={styles.video}
           src="/terminateVirus.mp4"
           autoPlay
+          playsInline
           muted
           loop
         ></video>

@@ -1,5 +1,4 @@
 import Image from "next/image";
-import corona from "../assets/corona.jpg";
 import styles from "../styles/DualImage.module.css";
 
 const DualImage = () => (
