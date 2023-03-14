@@ -132,6 +132,7 @@ const SanitationPage = ({ images }) => (
         </p>
       </div>
       <DualImage />
+      <div id="prices" className={styles.spacer} />
       <Prices />
     </main>
   </Layout>

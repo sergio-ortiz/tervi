@@ -28,7 +28,7 @@ const MobileMenu = ({ mobile, toggleMenu, extras }) => (
         </Link>
       </li>
     ))}
-    <li className={styles.navLinkItem}>
+    <li className={styles.navLinkItem} onClick={toggleMenu}>
       <Link href="/sanitation">
         <a className={styles.navLinkText}>Sanitation</a>
       </Link>

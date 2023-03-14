@@ -18,6 +18,7 @@ const HomePage = () => (
     extras={[]}
   >
     <div id="about" className={styles.container}>
+      <div class={styles.spacer}></div>
       <ListBlock
         order={2}
         imageSrc={bankStaff}

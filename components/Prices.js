@@ -37,7 +37,7 @@ class Prices extends React.Component {
     );
 
     return (
-      <section id="prices" className={styles.prices}>
+      <section className={styles.prices}>
         <div className="container">
           <div className="spacer"></div>
           <h2>Pricing</h2>

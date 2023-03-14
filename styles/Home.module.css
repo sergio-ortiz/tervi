@@ -3,6 +3,9 @@
   margin: 0 auto;
 }
 
+.spacer {
+  height: 0.1rem;
+}
 .main {
   margin-bottom: 100px;
 }
