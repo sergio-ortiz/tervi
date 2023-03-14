@@ -20,7 +20,7 @@ const MobileMenu = ({ mobile, toggleMenu, extras }) => (
       </Link>
     </li>
     {extras.map((e) => (
-      <li className={styles.navLinkItem}>
+      <li className={styles.navLinkItem} onClick={toggleMenu}>
         <Link href={"#" + e}>
           <a className={styles.navLinkText}>
             {`${e[0].toUpperCase()}${e.slice(1)}`}
@@ -28,7 +28,7 @@ const MobileMenu = ({ mobile, toggleMenu, extras }) => (
         </Link>
       </li>
     ))}
-    <li className={styles.navLinkItem}>
+    <li className={styles.navLinkItem} onClick={toggleMenu}>
       <Link href="/sanitation">
         <a className={styles.navLinkText}>Sanitation</a>
       </Link>
