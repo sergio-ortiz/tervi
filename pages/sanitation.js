@@ -71,6 +71,7 @@ const SanitationPage = ({ images }) => (
           className={styles.video}
           src="/terminateVirus.mp4"
           autoPlay
+          playsInline
           muted
           loop
         ></video>
