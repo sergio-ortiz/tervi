@@ -17,6 +17,10 @@ const SanitationPage = ({ images }) => (
   <Layout
     hero={corona}
     mainHeading={"Welcome to TerminateVirus.\nDisinfect & Sanitize"}
+    meta={
+      "facility, custodian, porter, clean, cleaner, cleaning, janitorial, janitor, COVID-19, SARS-CoV-2, coronavirus, disinfect, disinfecting, sanitize, sanitizing, decontamination, decontaminate"
+    }
+    title={"TerminateVirus | COVID-19 Disinfecting Services"}
     extras={["prices"]}
   >
     <h1 className={styles.mainHeading}>

@@ -15,6 +15,10 @@ const HomePage = () => (
     mainHeading={
       "Tervi strives to be your 5-star rating Professional Janitorial service provider."
     }
+    meta={
+      "facility, custodian, porter, clean, cleaner, cleaning, janitorial, janitor, COVID-19, SARS-CoV-2, coronavirus, disinfect, disinfecting, sanitize, sanitizing, decontamination, decontaminate"
+    }
+    title={"Tervi | Janitorial Cleaning Services"}
     extras={[]}
   >
     <div id="about" className={styles.container}>
