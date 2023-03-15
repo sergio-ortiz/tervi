@@ -2,15 +2,12 @@ import Head from "next/head";
 import Header from "/components/Header";
 import Footer from "/components/Footer";
 
-const Layout = ({ children, hero, mainHeading, extras }) => (
+const Layout = ({ children, hero, mainHeading, extras, meta, title }) => (
   <>
     <Head>
-      <meta
-        name="keywords"
-        content="facility, custodian, porter, clean, cleaner, cleaning, janitorial, janitor, COVID-19, SARS-CoV-2, coronavirus, disinfect, disinfecting, sanitize, sanitizing, decontamination, decontaminate"
-      />
+      <meta name="keywords" content={meta} />
       <link rel="icon" href="/favicon.ico" />
-      <title>Tervi | Janitorial Cleaning Services</title>
+      <title>{title}</title>
     </Head>
     <Header hero={hero} mainHeading={mainHeading} extras={extras} />
     {children}
