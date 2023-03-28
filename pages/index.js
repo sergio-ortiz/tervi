@@ -28,7 +28,7 @@ const HomePage = () => (
         imageSrc={bankStaff}
         heading={"Our Work"}
         listItems={[
-          "Tervi is a new reliable ambitious company that is ready to make your life easier. We have trained, fully vaccinated, and reliable cleaners.",
+          "Tervi is a new reliable, ambitious company that is ready to make your life easier. We have trained, fully vaccinated, and reliable cleaners.",
           "Deliverables and Milestones Inspections and Reports.",
           "Cleaner coverage 100% insured. Always have backup cleaners.",
           "We conduct background checks on every employee hired.",
@@ -42,7 +42,7 @@ const HomePage = () => (
         heading={"Work compliance"}
         listItems={[
           "Tervi delivers a great reliable cleaning performance. ",
-          "All of our cleaners have gone through training, background checks, and have been personally interview to ensure we bring the highest standards of cleaning.",
+          "All of our cleaners have gone through training, background checks, and have been personally interviewed to ensure we bring the highest standards of cleaning.",
           "Small Business that focuses on Compliance Corporate Social Responsibility",
           "Low Fees compared to other companies",
           "Policies and procedures",
@@ -86,7 +86,7 @@ const HomePage = () => (
         imageSrc={powerWash}
         heading={"Commercial Janitorial Cleaning"}
         listItems={[
-          "All of our cleaners have gone through training, background checks, and have been personally interview to ensure we bring the highest standards of cleaning.",
+          "All of our cleaners have gone through training, background checks, and have been personally interviewed to ensure we bring the highest standards of cleaning.",
           "Our exceptional customer service team is ready to assist you and to answer any questions you may have.",
           "We take into consideration that each location has to be up to the highest standard of professionalism for the benefit of your customers and employees and we’ll give it an exceptional cleaning to maintain that standard.",
         ]}
