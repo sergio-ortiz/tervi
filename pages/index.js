@@ -28,7 +28,7 @@ const HomePage = () => (
         imageSrc={bankStaff}
         heading={"Our Work"}
         listItems={[
-          "Tervi is a new reliable, ambitious company that is ready to make your life easier. We have trained, fully vaccinated, and reliable cleaners.",
+          "Tervi is a new reliable, ambitious company that is ready to make your life easier. We have trained and reliable cleaners.",
           "Deliverables and Milestones Inspections and Reports.",
           "Cleaner coverage 100% insured. Always have backup cleaners.",
           "We conduct background checks on every employee hired.",
