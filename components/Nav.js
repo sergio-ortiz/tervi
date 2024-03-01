@@ -12,14 +12,12 @@ const Nav = ({ extras }) => {
       <div className={styles.container}>
         <h1>
           <Link href="/">
-            <a className={styles.branding}>
+            <a>
               <Image
-                className={styles.logo}
-                src="/logo2.png"
-                width="25"
-                height="25"
+                src="/logo3.png"
+                width="60"
+                height="60"
               />
-              Tervi
             </a>
           </Link>
         </h1>

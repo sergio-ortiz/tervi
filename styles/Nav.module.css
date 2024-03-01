@@ -1,11 +1,12 @@
 .navbar {
-  padding: 4px;
   background: #333;
   color: #fff;
   position: fixed;
   top: 0;
   width: 100%;
+  height: 55px;
   z-index: 1;
+  overflow: hidden;
 }
 
 .container {
@@ -13,19 +14,8 @@
   justify-content: space-between;
   align-items: center;
   width: 80%;
+  height: 55px;
   margin: auto;
-}
-
-.branding {
-  font-size: 28px;
-  text-align: center;
-  text-decoration: none;
-  text-decoration: none;
-  color: white;
-  display: flex;
-  width: 100px;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .navLinks {
@@ -67,7 +57,7 @@
 
 @media (max-width: 768px) {
   .container {
-    width: 97%;
+    width: 96%;
   }
 
   .navLinks {
